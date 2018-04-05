@@ -1,6 +1,5 @@
 'use strict';
 $(function() {
-  console.log('jquery test passed');
   $('#js-shopping-list-form').submit(function(event) {
     event.preventDefault();
     const listItem = $('.js-shopping-list-entry').val();
